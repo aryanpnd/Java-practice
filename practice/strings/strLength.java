@@ -1,4 +1,4 @@
-public class stringLength {
+public class strLength {
     public static void main(String[] args){
         String firstname = "aryan";
         String lastname = "pandey";
