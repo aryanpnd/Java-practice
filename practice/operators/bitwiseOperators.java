@@ -17,7 +17,7 @@ public class bitwiseOperators {
         System.out.println(5<<1);
 
         // right shift operator
-        System.out.println(~5>>1);
+        System.out.println(~5>>1); 
 
     }
 }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class stringOperation {
 
     public static String replaceChar(String str, char charToReplace, char charToReplaceWith) {
