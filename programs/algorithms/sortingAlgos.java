@@ -40,18 +40,20 @@ public class sortingAlgos {
 
     public static int[] insertionSort(int[] arr) {
         int[] tempArr = arr;
-
-        for (int i = 0; i < tempArr.length; i++) {
+    
+        for (int i = 1; i < tempArr.length; i++) {
             int current = tempArr[i];
             int j = i - 1;
             while (j >= 0 && current < tempArr[j]) {
-                tempArr[j - 1] = tempArr[j];
-                j--; // its working even after remove this (dont know how)
+                tempArr[j + 1] = tempArr[j];
+                j--;
             }
+            tempArr[j + 1] = current;
         }
-
+    
         return tempArr;
     }
+    
 
     public static void main(String[] args) {
         int[] arr = { 5, 3, 1, 3, 8, 7, 12, 6 };
