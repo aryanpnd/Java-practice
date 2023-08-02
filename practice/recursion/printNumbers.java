@@ -1,6 +1,5 @@
 public class printNumbers {
     public static void printNumbersRecursively(int num){
-        int i = 0;
         if(num<=0){
             return;
         }
