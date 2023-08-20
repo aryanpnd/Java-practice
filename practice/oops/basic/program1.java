@@ -1,3 +1,4 @@
+package basic;
 class Car{
     String name;
     String color;
