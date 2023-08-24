@@ -40,7 +40,6 @@ public class codeAssignment5{
   circle.display2();
  }
 } */
-
 // Interface ShapeX is created
 interface ShapeX {
     String base = "This is Shape1";
@@ -59,14 +58,15 @@ class ShapeG implements ShapeY {
     
     // Overriding method in ShapeX interface
     public void display1() {
-        System.out.println("Circle: " + base);
+        System.out.println("Circle: " + ShapeX.base);
     }
     
     // Overriding method in ShapeY interface
     public void display2() {
-        System.out.println("Circle: " + base);
+        System.out.println("Circle: " + ShapeY.base);
     }
 }
+
 
 public class codeAssignment5{
  public static void main(String[] args) {
