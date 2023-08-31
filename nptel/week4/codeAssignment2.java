@@ -22,7 +22,7 @@ year = obj.get(java.util.Calendar.YEAR);
 // Print the current Year
 		System.out.println("Current Year: "+year);
 
-        ~~~THERE IS SOME INVISIBLE CODE HERE~~~
+        // ~~~THERE IS SOME INVISIBLE CODE HERE~~~
 
         }
 }
